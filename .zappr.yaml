@@ -26,6 +26,6 @@ approvals:
 commit:
     message:
         patterns:
-            - "^(MSB|msb|MLX|mlx|MDY|mdy|MRF|mrf)-\d{3,}:\s+.+"     # one of our JIRA ticket numbers
-            - "[Ss][Tt][Oo][Rr][Yy][\s#-]\s*\d{2,}:\s+.+"           # one of our scrum.do ticket numbers
-            - "^[Nn][Oo][Ss][Tt][Oo][Rr][Yy]:\s+.+"                 # explicitly set without a story reference
+            - "^(MSB|msb|MLX|mlx|MDY|mdy|MRF|mrf)-\\d{3,}:\\s+.+"    # one of our JIRA ticket numbers
+            - "[Ss][Tt][Oo][Rr][Yy][\\s#-]\\s*\\d{2,}:\\s+.+"        # one of our scrum.do ticket numbers
+            - "^[Nn][Oo][Ss][Tt][Oo][Rr][Yy]:\\s+.+"                 # explicitly set without a story reference
